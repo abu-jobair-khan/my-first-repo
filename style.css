@@ -209,3 +209,153 @@
 .vdo>iframe{
    border-radius: 15px;
 }
+
+.mission{
+   width: 1140px;
+   height: 1437px;
+   background-image: linear-gradient(to top right,rgba(207, 250, 207, 0.863),rgb(204, 204, 247));
+   border-radius: 15px;
+   /*border: 1px solid black;*/
+   position: relative;
+   left: 20%;
+   top: 10px;
+}
+.mission-head{
+   width: 930px;
+   height: 113px;
+   /*border: 1px solid black;*/
+   margin-top: 10px;
+   margin-left: 8%;
+}
+.mission-head>h2{
+   margin-top: 5px;
+   margin-left: 36%;
+}
+.mission-head>p>span{
+   margin-left: 36%;
+}
+
+.crnt-trgts{
+   width: 1140px;
+   height: 299px;
+  /* border: 1px solid blue;*/
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.crnt-item-1{
+   width: 364px;
+   height: 299px;
+   border-radius: 15px;
+   background-color: rgba(255, 159, 159, 0.466);
+  /* border: 1px solid yellow;*/
+}
+.crnt-item-2{
+   width: 364px;
+   height: 299px;
+   border-radius: 15px;
+   background-color:rgba(181, 245, 181, 0.781);
+}
+
+.crnt-item-3{
+   width: 364px;
+   height: 299px;
+   border-radius: 15px;
+   background-color: rgba(247, 247, 155, 0.863);
+
+}
+.itm-cntr{
+   width: 284px;
+   height: 219px;
+  
+   border-radius: 5px;
+  /* border: 1px solid red;*/
+   margin: 10%;
+}
+.itm-cntr>img{
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+.itm-cntr>p{
+   margin-top: -10px;
+}
+
+.support-pnl{
+   width: 1140px;
+   height: 350px;
+   border-radius: 10px;
+   position: relative;
+   left: 20%;
+   top: 30px;
+}
+ .support-pnl>img{
+   border-radius: 10px;
+ }
+
+ .sprt-frm{
+   width: 1044px;
+   height: 160px;
+   position: absolute;
+   top: 60px;
+   bottom: 40px;
+   left: 48px;
+   right: 48px;
+ }
+  .sprt-bx{
+   width: 730px;
+   height: 104px;
+   margin-left: 18%;
+   margin-top: 25px;
+  }
+  .sprt-bx>h2{
+   margin-left: 33%;
+   margin-top: -10px;
+   color: white;
+   font-size: xx-large;
+  }
+  .sprt-bx>p{
+   color:white;
+   margin-top: -20px;
+  }
+
+  .text-bx{
+   width: 684px;
+   height: 57px;
+   position: absolute;
+   top: 192px;
+   left: 180px;
+   bottom: 50px;
+   display: flex;
+   justify-content: space-between;
+  }
+
+  .sprt-bx>p>span{
+   margin-left: 27%;
+  }
+
+  .text-bx>textarea{
+   font-size: large;
+  }
+  .text-bx>button{
+
+   width: 120px;
+   height: 57px;
+   margin-left: 16px;
+   font-size: large;
+   text-align: center;
+   border-radius: 14px;
+  }
+
+  .foot-sec{
+   height: 100px;
+  display: flex;
+  background-color: rgba(248, 8, 128, 0.178);
+  align-items: center;
+  justify-content: space-around;
+ }
+
+ .icons>a>span{
+  margin-left: 15px;
+ }
